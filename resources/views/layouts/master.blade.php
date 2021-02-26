@@ -17,8 +17,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
         <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
-        @include('flash::message')
+        <div class="content-wrapper" id="app">
+            @include('flash::message')
             @yield('content')
         </div>
         <!-- /.content-wrapper -->

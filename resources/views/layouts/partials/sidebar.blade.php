@@ -30,6 +30,18 @@
                              </a>
                          </li>
                          <li class="nav-item">
+                             <a href="{{route('brands.index')}}" class="nav-link">
+                                 <i class="far fa-circle nav-icon"></i>
+                                 <p>Brand</p>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="{{route('sizes.index')}}" class="nav-link">
+                                 <i class="far fa-circle nav-icon"></i>
+                                 <p>Size</p>
+                             </a>
+                         </li>
+                         <li class="nav-item">
                              <a href="#" class="nav-link">
                                  <i class="far fa-circle nav-icon"></i>
                                  <p>Inactive Page</p>
